@@ -16,5 +16,5 @@ npm i cwlog
 * error
 
 ```
-cwlog.info('This is a info log');
+cwlog.info('This is an info log');
 ```
