@@ -1,11 +1,11 @@
-# cwlog
+# chowa-log
 
 Different information level reminder logs
 
 ## Install
 
 ```
-npm i cwlog
+npm i chowa-log
 ```
 
 ## Usage
@@ -16,5 +16,11 @@ npm i cwlog
 * error
 
 ```
+const cwlog = require('chowa-log');
+
 cwlog.info('This is an info log');
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
