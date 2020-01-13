@@ -1,0 +1,31 @@
+{
+  "name": "cwlog",
+  "version": "1.0.0",
+  "description": "Different information level reminder logs",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowa/cwlog.git"
+  },
+  "keywords": [
+    "colors",
+    "log",
+    "node"
+  ],
+  "author": "xuecong8226@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chowa/cwlog/issues"
+  },
+  "homepage": "https://github.com/chowa/cwlog#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1"
+  }
+}
