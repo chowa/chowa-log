@@ -1,9 +1,14 @@
 import * as colors from 'colors/safe';
 
-export declare function success(msg: string): void;
+export default class cwlog {
 
-export declare function warning(msg: string): void;
+    static setProject(project: string): void;
 
-export declare function error(msg: string): void;
+    static success(msg: string): void;
 
-export declare function info(msg: string): void;
+    static warning(msg: string): void;
+
+    static error(msg: string): void;
+
+    static info(msg: string): void;
+}
