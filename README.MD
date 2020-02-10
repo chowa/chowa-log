@@ -18,6 +18,8 @@ npm i chowa-log
 ```
 const cwlog = require('chowa-log');
 
+// import cwlog from 'chowa-log';
+
 cwlog.info('This is an info log');
 ```
 
