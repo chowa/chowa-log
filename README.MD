@@ -23,6 +23,20 @@ const cwlog = require('chowa-log');
 cwlog.info('This is an info log');
 ```
 
+## Setting
+
+### Set project name
+
+```
+cwlog.setProject('chowa');
+```
+
+### Display log date
+
+```
+cwlog.displayDate();
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
