@@ -14,4 +14,6 @@ export default class cwlog {
     static error(msg: string): void;
 
     static info(msg: string): void;
+
+    static log(msg: string): void;
 }
